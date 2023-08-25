@@ -1,0 +1,101 @@
+
+body {
+    background-color: var(--white);
+    overflow-y: hidden;
+    
+}
+
+
+header {
+    width: 100%;
+    background-color: var(--background-color);
+}
+
+.container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 5rem 0 auto;
+}
+
+.links a, button {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    transition: 1s;
+
+}
+
+.links a:hover {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.links a button:hover{
+    color: #0D1644;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 12px;
+    color: var(--white);
+    padding: 8px;
+}
+
+hr {
+    border: 1px solid var(--primary-color);
+}
+
+
+main {
+    height: 100vh;
+    background-color: var(--background-color);
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 880px;
+    min-height: 500px;
+    max-height: 638px;
+    gap: 5rem;
+    margin-left: 1.8rem;
+    padding: 2rem;
+}
+
+.slogan h1 {
+    margin-top: 2rem;
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1644;
+
+}
+
+section {
+    max-width: 700px;
+    padding: 8px;
+    
+}
+
+section p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
